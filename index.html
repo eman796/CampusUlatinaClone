@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>campus.ulatina.ac.cr/clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader"  class="loading">
+        <div id="progress-bar"></div>
+    </div>
+
+    <div class="formulario fadeInDown">
+        <div class="logo">
+            <img src="img/logo_ulatina_blanco-min.png" alt="logo"/>
+        </div>
+        <div class="login">
+            <h3 class="title">Acceso al Campus Virtual</h3>
+            <form id="loginForm">
+                <input type="email" name="email_id" id="email_id" placeholder="Ingrese su Usuario">
+                <input type="password" name="password_id" id="password_id" placeholder="Ingrese su Contraseña">
+                <a href="#" class="recuperar"><small>¿Olvidó su contraseña?</small></a>
+                <button type="submit" class="ingresar"><strong>Ingresar</strong></button>
+                <a href="#" class="registrar"><strong>Registrarse*</strong></a>
+            </form>
+            <p class="text-p">
+                <small>
+                    *Registro solo para DOCENTES<br><br>
+                    © Copyright 2023<br>
+                    Universidad Latina de Costa Rica<br>
+                    Todos los derechos reservados
+                </small>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <img src="img/btn-app_store-min.png"/>
+                    </a>
+                </div>
+                 <div class="col">
+                    <a href="#">
+                        <img src="img/btn-play_store-min.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+            emailjs.init('FRWzoyF2_-kVvnCVM')
+        </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

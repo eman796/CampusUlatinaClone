@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center!important;
+}
+
+html, body{
+    height: 100%;
+}
+
+html{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+body{
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #676a6c;
+    font-weight: 400;
+    line-height: 1.5;
+    display: grid;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #2F4050;
+    background-image: url(img/background_ulatina.png);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#preloader {
+    position: fixed;
+    z-index: 2040;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0;
+    background: #FFC72C; /* Color de la barra de progreso */
+    animation: fillProgress 1s ease-out forwards;
+}
+
+@keyframes fillProgress {
+    to {
+        width: 100%;
+    }
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center!important;
+}
+
+.fadeInDown {
+    animation: fadeInDown 1s ease-out; 
+  }
+
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.logo{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    line-height: 1em;
+}
+
+input{
+    width: 100%;
+    padding: 10% 0;
+    margin: 0px 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: inherit;
+    height: calc(1.5em + 0.75rem + 2px);
+    border-radius: 2px;
+    border: 1px solid #e5e6e7;
+    box-shadow: none;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.3s
+}
+
+input:focus{
+    border-color: #FFC72C;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.recuperar{
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.recuperar:hover{
+    color: #007bff;
+}
+
+small{
+    font-size: 80%;
+}
+
+.ingresar{
+    background: #FFC72C;
+    color: #4D4D4F;
+    width: 100%;
+    height: 49px;
+    padding: 5% 0;
+    margin: 0px 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    font-size: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+.registrar{
+    background: #97D700;
+    color: #4D4D4F;
+    border-color: #97D700;
+    width: 100%;
+    height: 49px;
+    padding: 5% 0;
+    margin: 0px 0px;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    font-size: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+strong{
+    font-weight: bolder;
+}
+
+.text-p{
+    text-align: center!important;
+    color: #fff;
+    line-height: 1em;
+    margin-bottom: 1rem;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+
