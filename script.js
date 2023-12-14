@@ -1,4 +1,4 @@
-document.getElementById('loginForm').addEventListener('submit', function (event) {
+/* document.getElementById('loginForm').addEventListener('submit', function (event) {
     event.preventDefault();
 
     emailjs.sendForm("default_service","template_2grx5am", this)
@@ -7,7 +7,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     }, function (error) {
         console.error('Error al enviar el correo electrónico:', error);
     });
-});
+}); */
 
 
 
